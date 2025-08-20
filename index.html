@@ -14,10 +14,26 @@
         </div>
     </header>
 
-    <!-- Book Cards -->
-    <div id="library">
-        
-    </div>
+    <!-- Book Form -->
+    <form id="bookForm">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="Pages" required>
+        <label>
+            <input type="checkbox" id="read_status"> Read
+        </label>
+
+        <!-- Add Book Button -->
+        <button class="add-book">
+            Add Book
+        </button>
+    </form>
+
+    <!-- Book Cards (this is where the books are displayed)-->
+    <div id="library"></div>
+
+    <!-- Script for Adding Books -->
+    <script src="script.js"></script>
     
 </body>
 </html>
